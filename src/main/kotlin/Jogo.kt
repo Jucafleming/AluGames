@@ -1,11 +1,7 @@
-class Jogo(val titulo: String, val capa: String ) {
+data class Jogo(val titulo: String, val capa: String ) {
     var descricao = ""
 
     override fun toString(): String {
-        return "Jogo(titulo='$titulo', capa='$capa', descricao='$descricao')"
+        return "Jogo(\n titulo='$titulo', \n capa='$capa', \n descricao='$descricao')"
     }
-
-
-
-
 }
