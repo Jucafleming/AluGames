@@ -34,18 +34,11 @@ class ConsumoApi {
         }
 
         resultado.onFailure {
-            print("Jogo não existe tente outro id")
+            print("Jogo não existe tente outro id \n")
 
         }
-
-        resultado.onSuccess {
-            print("AAAAAAAAAAAAAA")
-        }
-
 
         return retorno
-
-
     }
 
 }
